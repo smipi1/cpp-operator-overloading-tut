@@ -55,4 +55,4 @@ Refer to [C++ Core Guidelines](https://www.modernescpp.com/index.php/c-core-guid
 
 ---
 
-[Back](../README.md)
+[Previous](./what-is-operator-overloading-and-why-should-you-care.md) | [Back](../README.md) | [Next](./cool-example-with-templates.md)

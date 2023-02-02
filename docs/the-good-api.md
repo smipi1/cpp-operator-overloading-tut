@@ -8,4 +8,4 @@ A good API is easy to use (and learn), but hard to misuse:
 
 ---
 
-[Back](../README.md)
+[Previous](./prerequisites.md) | [Top](../README.md) | [Next](./what-is-function-overloading-and-why-should-you-care.md)

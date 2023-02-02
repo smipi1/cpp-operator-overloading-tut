@@ -25,4 +25,4 @@ Hack along with [function-overloading.cpp](../function-overloading.cpp).
 
 ---
 
-[Back](../README.md)
+[Previous](./the-good-api.md) | [Top](../README.md) | [Next](./what-is-operator-overloading-and-why-should-you-care.md)

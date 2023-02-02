@@ -25,7 +25,7 @@ public:
 It would be really useful if the *type was parameterizable* to reduce code duplication! This is why templates exist. E.g.:
 ```
 template<class T>
-class Fifo {
+class Fifo 
 public:
     Fifo()
     push(T value) {}
@@ -46,6 +46,27 @@ public:
 };
 ```
 
+This transforms your class or function into a world of potential classes or functions:
+```
+int main() {
+    Fifo<int> intFifo;
+    intFifo.push(1);
+    intFifo.push(2);
+    
+    Fifo<double> doubleFifo;
+    doubleFifo.push(1.0f);
+    doubleFifo.push(2.0f);
+    
+    Fifo<std::string> stringFifo;
+    stringFifo.push("first");
+    stringFifo.push("second");
+
+    Fifo<Pony> ponyFifo;
+    ...
+}
+```
+
+Hack along with [dimensional-analysis-and-checking.cpp](../dimensional-analysis-and-checking.cpp)
 
 ---
 

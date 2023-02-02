@@ -25,9 +25,9 @@ class Battery {
             _energy -= energy_in_joules;
         }
 
-        void drain(double power_in_watts, int time_in_hours) {
-            _energy -= power_in_watts * 3600.0f * time_in_hours;
-        }
+        // void drain(double power_in_watts, int time_in_hours) {
+        //     _energy -= power_in_watts * 3600.0f * time_in_hours;
+        // }
 
         void reportCharge() {
             std::cout << __PRETTY_FUNCTION__ << ": " << "energy = " << _energy << " J" << std::endl;

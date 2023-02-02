@@ -32,6 +32,7 @@
      void process(std::string documentBody);
      void process(DnaSequence& data);
      ```
+   Hack along with [good-api-bad-api.cpp](../good-api-bad-api.cpp)
 2. [Avoid implicit conversion operators.](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c164-avoid-implicit-conversion-operators) E.g., the following implicit conversions are either **essential**, or **fundamental in the application domain**:
    ```
    double gagueValue = 6.7f;

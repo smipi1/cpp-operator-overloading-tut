@@ -23,6 +23,8 @@ int main()
 
 Hack along with [function-overloading.cpp](../function-overloading.cpp).
 
+P.S. also have a peek at [function-overloading-with-templated-function.cpp](../function-overloading-with-templated-function.cpp), which further reduces code duplication with a C++ template function.
+
 ---
 
 [Previous](./the-good-api.md) | [Top](../README.md) | [Next](./what-is-operator-overloading-and-why-should-you-care.md)
